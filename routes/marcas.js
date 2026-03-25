@@ -2,7 +2,7 @@
 const router = require('express').Router();
 const ctrl   = require('../controllers/marcas');
 const { body } = require('express-validator');
-const validate = require('../middleware/validate');
+const validate = require('../middlewares/validate');
 
 const rules = [
   body('nombre').notEmpty().trim(),

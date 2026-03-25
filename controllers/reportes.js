@@ -1,5 +1,5 @@
 // src/controllers/reportes.js
-const pool = require('../db');
+const pool = require('../config/db');
 
 // Top productos más vendidos
 exports.topProductos = async (req, res, next) => {

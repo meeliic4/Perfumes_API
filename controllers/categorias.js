@@ -1,5 +1,5 @@
 // src/controllers/categorias.js
-const pool = require('../db');
+const pool = require('../config/db');
 
 exports.getAll = async (req, res, next) => {
   try {

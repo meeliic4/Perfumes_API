@@ -1,5 +1,5 @@
 // src/controllers/marcas.js
-const pool = require('../db');
+const pool = require('../config/db');
 
 exports.getAll = async (req, res, next) => {
   try {

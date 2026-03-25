@@ -1,5 +1,5 @@
 // src/controllers/pedidos.js
-const pool = require('../db');
+const pool = require('../config/db');
 
 // ── Pedidos ──────────────────────────────────────────────────
 
